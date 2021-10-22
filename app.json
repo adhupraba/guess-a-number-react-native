@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "guess-a-number",
+    "name": "Guess The Number",
     "slug": "guess-a-number",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/app-splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,8 +20,10 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.trense.guessthenumber",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/app-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
